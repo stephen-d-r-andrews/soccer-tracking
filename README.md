@@ -1,5 +1,5 @@
 # soccer-tracking
-Track players and measure speed from video of soccer game. Usage instructions are at https://soccer-tracking.readthedocs.io/
+Track players and measure speed from video of soccer game. Script automatically extracts players coordinates from video using fixed reference anchors on the field. Player speed is then calculated from coordinates. Usage instructions at https://soccer-tracking.readthedocs.io/
 
 Example output video:
 
