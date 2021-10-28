@@ -20,7 +20,7 @@ To run:
 
 .. code-block:: bash
 
-python tracking.py --input videos/inputvideo.mp4 --output output/outputvideo.avi --anchors videos/inputvideo.json --yolo yolo-coco
+    python tracking.py --input videos/inputvideo.mp4 --output output/outputvideo.avi --anchors videos/inputvideo.json --yolo yolo-coco
 
 The output is placed in the file outputvideo.avi in the output folder. As the annotater marks the video the anchors are stored in vidoes/inputvideo.json. This file is created if it doesn't already exist. 
 
