@@ -11,20 +11,14 @@ Welcome to soccer-tracking's documentation!
    :caption: Contents:
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 Usage
 =====
 
 Place the video to be analyzed in a folder called videos. Create a folder called output for the output video. The yolov3 weights and configuration are assumed to be in a folder called yolo-coco. 
 
 To run:
+
+.. code-block:: bash
 
 python tracking.py --input videos/inputvideo.mp4 --output output/outputvideo.avi --anchors videos/inputvideo.json --yolo yolo-coco
 
